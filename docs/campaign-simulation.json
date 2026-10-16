@@ -1,0 +1,328 @@
+[
+  {
+    "level": 1,
+    "name": "Sugar Square",
+    "status": "won",
+    "movesLeft": 12,
+    "score": 2820,
+    "path": [
+      [
+        13,
+        14
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        20,
+        28
+      ],
+      [
+        52,
+        60
+      ]
+    ],
+    "goals": [
+      {
+        "label": "rose",
+        "current": 12,
+        "target": 12
+      },
+      {
+        "label": "mint",
+        "current": 12,
+        "target": 12
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Glaze Gardens",
+    "status": "won",
+    "movesLeft": 16,
+    "score": 7860,
+    "path": [
+      [
+        53,
+        61
+      ],
+      [
+        35,
+        36
+      ],
+      [
+        27,
+        35
+      ],
+      [
+        42,
+        50
+      ],
+      [
+        59,
+        60
+      ],
+      [
+        51,
+        52
+      ],
+      [
+        52,
+        53
+      ]
+    ],
+    "goals": [
+      {
+        "label": "glaze",
+        "current": 18,
+        "target": 18
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Meringue Market",
+    "status": "won",
+    "movesLeft": 20,
+    "score": 9300,
+    "path": [
+      [
+        51,
+        52
+      ],
+      [
+        27,
+        28
+      ],
+      [
+        46,
+        54
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    "goals": [
+      {
+        "label": "citrus",
+        "current": 44,
+        "target": 15
+      },
+      {
+        "label": "meringue",
+        "current": 12,
+        "target": 12
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Ribbon Railway",
+    "status": "won",
+    "movesLeft": 18,
+    "score": 19420,
+    "path": [
+      [
+        43,
+        51
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        36,
+        44
+      ],
+      [
+        48,
+        56
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        45,
+        53
+      ]
+    ],
+    "goals": [
+      {
+        "label": "glaze",
+        "current": 16,
+        "target": 16
+      },
+      {
+        "label": "specials made",
+        "current": 16,
+        "target": 4
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Prism Promenade",
+    "status": "won",
+    "movesLeft": 6,
+    "score": 19660,
+    "path": [
+      [
+        22,
+        23
+      ],
+      [
+        13,
+        21
+      ],
+      [
+        56,
+        57
+      ],
+      [
+        50,
+        58
+      ],
+      [
+        49,
+        50
+      ],
+      [
+        32,
+        33
+      ],
+      [
+        45,
+        46
+      ],
+      [
+        45,
+        53
+      ],
+      [
+        44,
+        45
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        34,
+        42
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        28,
+        29
+      ],
+      [
+        35,
+        43
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        42,
+        50
+      ],
+      [
+        43,
+        51
+      ],
+      [
+        43,
+        44
+      ],
+      [
+        26,
+        27
+      ],
+      [
+        27,
+        28
+      ]
+    ],
+    "goals": [
+      {
+        "label": "glaze",
+        "current": 24,
+        "target": 24
+      },
+      {
+        "label": "meringue",
+        "current": 16,
+        "target": 16
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "name": "The Grand Patisserie",
+    "status": "won",
+    "movesLeft": 21,
+    "score": 21420,
+    "path": [
+      [
+        27,
+        28
+      ],
+      [
+        26,
+        34
+      ],
+      [
+        39,
+        47
+      ],
+      [
+        28,
+        36
+      ],
+      [
+        58,
+        59
+      ],
+      [
+        44,
+        45
+      ],
+      [
+        49,
+        50
+      ],
+      [
+        41,
+        42
+      ],
+      [
+        59,
+        60
+      ]
+    ],
+    "goals": [
+      {
+        "label": "berry",
+        "current": 63,
+        "target": 24
+      },
+      {
+        "label": "glaze",
+        "current": 32,
+        "target": 32
+      },
+      {
+        "label": "meringue",
+        "current": 16,
+        "target": 16
+      }
+    ]
+  }
+]

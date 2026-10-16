@@ -1,0 +1,25 @@
+{
+  "name": "bonbon-borough",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview": "vite preview --host 127.0.0.1 --port 5226 --strictPort",
+    "test:browser": "playwright test",
+    "simulate": "node --experimental-strip-types scripts/campaign.ts",
+    "format:check": "prettier --check src tests browser-tests scripts *.ts *.json index.html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.2",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  }
+}
