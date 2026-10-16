@@ -23,7 +23,19 @@ The reviews also confirmed dedicated save isolation, finite cascade/shuffle guar
 
 Local automated execution: connected Mac, isolated headless Chromium. CI: Linux/Windows/macOS Node checks and Linux Chromium; exact final SHA/run evidence belongs in the final handoff.
 
-Native Mac browser acceptance is **pending parent ownership handoff**. The parent reserved the shared native browser/screen/input for Mario Paint, then California Games. This task has not used those surfaces or claimed native acceptance. Native acceptance must demonstrate invalid/valid swaps, a cascade, special creation/use, level completion, loss/retry, progression and reload through normal controls. Windows browsers, Safari, physical mobile devices, touch hardware, audible output and screen readers remain unverified.
+Native Mac Chrome acceptance **passed on 2026-10-16**, after exclusive UI ownership was explicitly granted. All actions used normal visible click and keyboard controls; no game-state injection or storage edits were used.
+
+- Invalid r1c1/r1c2 swap reversed; the HUD remained at 16 moves.
+- Valid r2c6/r2c7 swap spent one move and created a row stripe, which fell to r4c7.
+- Keyboard Space/ArrowRight/Space swapped r2c4/r2c5 and produced two matches in one move. Focus remained on the board.
+- r3c5/r4c5 activated the stripe, visibly cleared its row, produced three matches in one move, and created column stripes and a parcel.
+- r7c5/r8c5 completed Sugar Square: rose 12/12, mint 12/12, 12 moves remaining, 2,820 points. The stage-two progression control unlocked Glaze Gardens.
+- A normal hinted stage-two move left 22 moves, glaze 3/18 and 780 points. Browser reload preserved the entire board's 64 visible cell descriptions, stage, moves and objectives.
+- Replaying stage one and using 16 normal hinted swaps reached a loss at zero moves with mint 9/12. Try this stage again restored the initial board, 16 moves and zero objectives/score while retaining stage-two unlock.
+
+[Native win](images/native-win.jpg), [native loss](images/native-loss.jpg), and [native reload](images/native-reload.jpg) screenshots record the visible results. No defects were discovered. Existing other-game tabs and saves were not changed. Exclusive native UI ownership was released immediately after acceptance.
+
+Native acceptance covers Mac Chrome click/keyboard input. Native drag/touch hardware, Windows browsers, Safari, physical mobile devices, audible output and screen readers remain unverified. Isolated headless tests separately cover drag controls, mobile viewport fit and all six stages. Engine simulations separately cover exhaustive fixtures and combination edge cases.
 
 ## Preview and publication
 
