@@ -28,3 +28,7 @@ Native Mac browser acceptance is **pending parent ownership handoff**. The paren
 ## Preview and publication
 
 Production preview: http://127.0.0.1:5226/ — detached Node process, loopback only, strict reserved port. PID/log in ignored .local/. Existing previews and saves remain untouched. Public GitHub repository publication is authorized; no public website deployment or account/security settings changes.
+
+## Cross-platform CI correction
+
+The initial Windows CI run passed types/tests but flagged every formatted text file after checkout converted LF to CRLF. Added .gitattributes to retain LF for text on all platforms, while keeping PNGs binary. No gameplay behavior changed. Final handoff reports only the final commit's completed CI status.
