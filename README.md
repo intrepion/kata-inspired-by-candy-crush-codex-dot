@@ -62,3 +62,7 @@ CI checks types/tests/format/build on Linux, Windows and macOS; headless Chromiu
 - [Spec and settled design](docs/SPEC.md), [glossary](CONTEXT.md), [scope decision](docs/adr/0001-bounded-classic-rules.md)
 - Gitignore includes the complete official GitHub [Linux](https://github.com/github/gitignore/blob/main/Global/Linux.gitignore), [Windows](https://github.com/github/gitignore/blob/main/Global/Windows.gitignore), and [macOS](https://github.com/github/gitignore/blob/main/Global/macOS.gitignore) Global templates plus project ignores.
 - [MIT License](LICENSE). Candy Crush Saga is a King trademark; this independent learning project is unaffiliated.
+
+## Play online
+
+[Play on GitHub Pages](https://intrepion.github.io/kata-inspired-by-candy-crush-codex-dot/). Return to the [Kata Arcade](https://intrepion.github.io/).
