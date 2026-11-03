@@ -1,6 +1,27 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "gameId": "kata-inspired-by-candy-crush-codex-dot",
   "playUrl": "https://intrepion.github.io/kata-inspired-by-candy-crush-codex-dot/",
-  "screenshots": []
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/ci-20261103-01.jpg",
+      "sha256": "3ba033417a2e131f6453fe624675e0213ceb07c9fb360c4d7a6b78c4db287d12",
+      "alt": "Bonbon Borough gameplay",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261103-01.png",
+        "sourceSha256": "259ae415287e9187694a3a91dedb23e188f537cfd2275926c1296ef96ac0f5f7",
+        "captureCommit": "79014fbdfd2b52e48e06e6f72b1aa9374297374b",
+        "workflowRunId": "41618864068",
+        "inputHashes": {
+          "assets/index-COp63yPX.css": "859fb9bf8a7385c380b3ed84b570b9bad0383ca592557ac2f589ff8566314f8f",
+          "assets/index-DFnHP-r-.js": "c03a1f630a532e4f79683fb1bf5233b4accf3f94d71017106e337c9e172a3247",
+          "index.html": "90c543756c04890a5bc9ebbffbe9c61c917624dd7eae0224c5336bd0c0aae247"
+        },
+        "publishedFilesVerifiedAt": "2026-11-03T10:24:28Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261103-record.json",
+        "captureRecordSha256": "f75bd34b435c2c9c45fd5480e831a8999d7088c17f12a8bec4b95b678d95d4de"
+      }
+    }
+  ]
 }
